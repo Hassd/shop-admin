@@ -12,8 +12,6 @@ import 'virtual:windi.css'
 
 import * as ElementPlusIconsVue from '@element-plus/icons-vue'
 
-// http://101.35.129.90:4343/#/goods/list
-
 const app = createApp(App)
 for (const [key, component] of Object.entries(ElementPlusIconsVue)) {
   app.component(key, component)
